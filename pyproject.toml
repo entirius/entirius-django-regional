@@ -1,6 +1,6 @@
 [project]
 name = "entirius-django-regional"
-version = "2.0.0"
+version = "2.0.1"
 description = "Regional reference data for Volkanos services - Country, Currency and Language models with admin API"
 authors = [{ name = "Entirius" }]
 readme = "README.md"

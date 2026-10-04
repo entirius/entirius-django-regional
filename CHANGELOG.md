@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased]
+
+- Access: the module declares its own access rules on its AppConfig (no areas of its own) and its admin views
+  (`staff.baseline`, copied from the entirius-django-access defaults; behaviour unchanged).
+
 ## 2.0.1 — 2026-07-10
 
 - Reset seeded primary-key sequences on postgres after fixture loads.

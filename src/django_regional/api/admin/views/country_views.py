@@ -18,6 +18,7 @@ _TAGS = ["Regional Countries"]
 class CountryListView(APIView):
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAdminUser]
+    access_area = "staff.baseline"
 
     @extend_schema(
         tags=_TAGS,

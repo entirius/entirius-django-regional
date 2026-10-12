@@ -10,3 +10,8 @@ class DjangoRegionalConfig(AppConfig):
     name = "django_regional"
     verbose_name = "Regional"
     is_volkanos = True
+    # The access defaults give this module no area: its reference lists are staff.baseline;
+    # the access defaults stay until this module's release.
+    access_areas = []
+    # Every admin view carries its access_area; no route needs a path rule.
+    access_route_rules = []

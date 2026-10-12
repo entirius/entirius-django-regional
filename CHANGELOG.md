@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## 2.1.0 — 2026-10-12
 
 - Access: the module declares its own access rules on its AppConfig (no areas of its own) and its admin views
   (`staff.baseline`, copied from the entirius-django-access defaults; behaviour unchanged).
